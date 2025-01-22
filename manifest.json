@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Mover Aba para Janela Focada",
+  "version": "1.0",
+  "description": "Extensão que move automaticamente novas abas criadas para a janela atualmente focada. Ajusta o tamanho e a posição da janela para corresponder à última janela ativa.",
+  "permissions": ["scripting", "windows", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["<all_urls>"]
+}
